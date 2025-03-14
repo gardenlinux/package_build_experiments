@@ -1,0 +1,5315 @@
+name: test
+on: push
+jobs:
+  acl:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: acl
+  acorn:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: acorn
+  adduser:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: adduser
+  adwaita-icon-theme:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: adwaita-icon-theme
+  afflib:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: afflib
+  aide:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: aide
+  alsa-lib:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: alsa-lib
+  amazon-ec2-utils:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: amazon-ec2-utils
+  anacron:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: anacron
+  apparmor:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: apparmor
+  apt:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: apt
+  arptables:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: arptables
+  at-spi2-core:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: at-spi2-core
+  attr:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: attr
+  audit:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: audit
+  augeas:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: augeas
+  autoconf:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: autoconf
+  automake-1_17:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: automake-1.17
+  automat:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: automat
+  autotools-dev:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: autotools-dev
+  avahi:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: avahi
+  aws-crt-python:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: aws-crt-python
+  aws-kms-pkcs11:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: aws-kms-pkcs11
+  aws-sdk-cpp:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: aws-sdk-cpp
+  awscli:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: awscli
+  azure-vm-utils:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: azure-vm-utils
+  babeltrace:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: babeltrace
+  base-files:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: base-files
+  base-passwd:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: base-passwd
+  bash:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: bash
+  bcron:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: bcron
+  bglibs:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: bglibs
+  bind9:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: bind9
+  binutils-gold:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: binutils-gold
+  binutils:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: binutils
+  blinker:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: blinker
+  blt:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: blt
+  bluez:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: bluez
+  boost1_83:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: boost1.83
+  brltty:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: brltty
+  brotli:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: brotli
+  bsdmainutils:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: bsdmainutils
+  btrfs-progs:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: btrfs-progs
+  build-essential:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: build-essential
+  busybox:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: busybox
+  bzip2:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: bzip2
+  c-ares:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: c-ares
+  ca-certificates:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: ca-certificates
+  cairo:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: cairo
+  capstone:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: capstone
+  cdebconf:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: cdebconf
+  ceph:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: ceph
+  chardet:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: chardet
+  checkpolicy:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: checkpolicy
+  cherrypy3:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: cherrypy3
+  chrony:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: chrony
+  cifs-utils:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: cifs-utils
+  clamav:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: clamav
+  cloud-init:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: cloud-init
+  cloud-utils:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: cloud-utils
+  colord:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: colord
+  colors_js:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: colors.js
+  configobj:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: configobj
+  conmon:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: conmon
+  connman:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: connman
+  conntrack-tools:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: conntrack-tools
+  constantly:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: constantly
+  containerd:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: containerd
+  continuity:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: continuity
+  coreutils:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: coreutils
+  cpio:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: cpio
+  cracklib2:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: cracklib2
+  cron:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: cron
+  cronie:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: cronie
+  cross-toolchain-base:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: cross-toolchain-base
+  crun:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: crun
+  cryptsetup:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: cryptsetup
+  cups:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: cups
+  curl:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: curl
+  cyrus-sasl2:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: cyrus-sasl2
+  dacite:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: dacite
+  daemon:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: daemon
+  dash:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: dash
+  datefudge:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: datefudge
+  dav1d:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: dav1d
+  db-defaults:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: db-defaults
+  db5_3:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: db5.3
+  dbus-broker:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: dbus-broker
+  dbus-python:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: dbus-python
+  dbus:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: dbus
+  dconf:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: dconf
+  debconf:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: debconf
+  debhelper:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: debhelper
+  debian-archive-keyring:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: debian-archive-keyring
+  debianutils:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: debianutils
+  deborphan:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: deborphan
+  device-tree-compiler:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: device-tree-compiler
+  devscripts:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: devscripts
+  dh-autoreconf:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: dh-autoreconf
+  dh-runit:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: dh-runit
+  dhcpcd:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: dhcpcd
+  diffstat:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: diffstat
+  diffutils:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: diffutils
+  ding-libs:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: ding-libs
+  distro-info-data:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: distro-info-data
+  dkms:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: dkms
+  dmidecode:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: dmidecode
+  dns-root-data:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: dns-root-data
+  dnsmasq:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: dnsmasq
+  docker-machine:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: docker-machine
+  docker_io:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: docker.io
+  dosfstools:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: dosfstools
+  double-conversion:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: double-conversion
+  dpkg:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: dpkg
+  dracut:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: dracut
+  duktape:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: duktape
+  dwarves:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: dwarves
+  dwz:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: dwz
+  e2fsprogs:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: e2fsprogs
+  ebtables:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: ebtables
+  ed:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: ed
+  edk2:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: edk2
+  efibootmgr:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: efibootmgr
+  efitools:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: efitools
+  efivar:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: efivar
+  elfutils:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: elfutils
+  elogind:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: elogind
+  eslint:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: eslint
+  ethtool:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: ethtool
+  exfatprogs:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: exfatprogs
+  expat:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: expat
+  f2fs-tools:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: f2fs-tools
+  fail2ban:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: fail2ban
+  fatresize:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: fatresize
+  ferm:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: ferm
+  file:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: file
+  findutils:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: findutils
+  flex:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: flex
+  fltk1_3:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: fltk1.3
+  fmtlib:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: fmtlib
+  fontconfig:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: fontconfig
+  fonts-dejavu:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: fonts-dejavu
+  fonts-freefont:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: fonts-freefont
+  fonts-liberation:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: fonts-liberation
+  fonts-noto:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: fonts-noto
+  fonts-urw-base35:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: fonts-urw-base35
+  freeipmi:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: freeipmi
+  freetype:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: freetype
+  fribidi:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: fribidi
+  frr:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: frr
+  fstrm:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: fstrm
+  fuse:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: fuse
+  fuse3:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: fuse3
+  garden-repo-manager:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: garden-repo-manager
+  gardenlinux-bootloader:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: gardenlinux-bootloader
+  gardenlinux-selinux-module:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: gardenlinux-selinux-module
+  gardenlinux-update:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: gardenlinux-update
+  gawk:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: gawk
+  gcc-12:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: gcc-12
+  gcc-13-cross:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: gcc-13-cross
+  gcc-13:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: gcc-13
+  gcc-14-cross:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: gcc-14-cross
+  gcc-14:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: gcc-14
+  gcc-defaults:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: gcc-defaults
+  gcr:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: gcr
+  gcr4:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: gcr4
+  gdbm:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: gdbm
+  gdisk:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: gdisk
+  gdk-pixbuf:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: gdk-pixbuf
+  gettext:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: gettext
+  gfs2-utils:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: gfs2-utils
+  git:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: git
+  glib-networking:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: glib-networking
+  glib2_0:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: glib2.0
+  glibc:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: glibc
+  glusterfs:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: glusterfs
+  glvd:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: glvd
+  gmp:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: gmp
+  gnome-icon-theme:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: gnome-icon-theme
+  gnupg2:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: gnupg2
+  gnutls28:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: gnutls28
+  go-md2man-v2:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: go-md2man-v2
+  golang-1_23:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: golang-1.23
+  golang-1_24:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: golang-1.24
+  golang-blackfriday-v2:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: golang-blackfriday-v2
+  golang-check_v1:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: golang-check.v1
+  golang-dbus:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: golang-dbus
+  golang-defaults:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: golang-defaults
+  golang-fsnotify:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: golang-fsnotify
+  golang-ginkgo:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: golang-ginkgo
+  golang-github-alecthomas-units:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: golang-github-alecthomas-units
+  golang-github-alexflint-go-filemutex:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: golang-github-alexflint-go-filemutex
+  golang-github-antlr-antlr4:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: golang-github-antlr-antlr4
+  golang-github-appc-cni:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: golang-github-appc-cni
+  golang-github-armon-go-socks5:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: golang-github-armon-go-socks5
+  golang-github-asaskevich-govalidator:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: golang-github-asaskevich-govalidator
+  golang-github-aws-aws-sdk-go:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: golang-github-aws-aws-sdk-go
+  golang-github-beorn7-perks:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: golang-github-beorn7-perks
+  golang-github-blang-semver:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: golang-github-blang-semver
+  golang-github-cenkalti-backoff:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: golang-github-cenkalti-backoff
+  golang-github-cespare-xxhash:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: golang-github-cespare-xxhash
+  golang-github-checkpoint-restore-go-criu:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: golang-github-checkpoint-restore-go-criu
+  golang-github-chzyer-readline:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: golang-github-chzyer-readline
+  golang-github-cilium-ebpf:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: golang-github-cilium-ebpf
+  golang-github-containerd-btrfs:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: golang-github-containerd-btrfs
+  golang-github-containerd-cgroups:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: golang-github-containerd-cgroups
+  golang-github-containerd-console:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: golang-github-containerd-console
+  golang-github-containerd-errdefs:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: golang-github-containerd-errdefs
+  golang-github-containerd-fifo:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: golang-github-containerd-fifo
+  golang-github-containerd-go-cni:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: golang-github-containerd-go-cni
+  golang-github-containerd-go-runc:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: golang-github-containerd-go-runc
+  golang-github-containerd-imgcrypt:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: golang-github-containerd-imgcrypt
+  golang-github-containerd-log:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: golang-github-containerd-log
+  golang-github-containerd-nri:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: golang-github-containerd-nri
+  golang-github-containerd-platforms:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: golang-github-containerd-platforms
+  golang-github-containerd-typeurl:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: golang-github-containerd-typeurl
+  golang-github-containernetworking-plugins:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: golang-github-containernetworking-plugins
+  golang-github-containers-common:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: golang-github-containers-common
+  golang-github-containers-image:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: golang-github-containers-image
+  golang-github-containers-libhvee:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: golang-github-containers-libhvee
+  golang-github-containers-ocicrypt:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: golang-github-containers-ocicrypt
+  golang-github-coreos-bbolt:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: golang-github-coreos-bbolt
+  golang-github-coreos-go-iptables:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: golang-github-coreos-go-iptables
+  golang-github-coreos-go-systemd:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: golang-github-coreos-go-systemd
+  golang-github-creack-pty:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: golang-github-creack-pty
+  golang-github-cyphar-filepath-securejoin:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: golang-github-cyphar-filepath-securejoin
+  golang-github-davecgh-go-spew:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: golang-github-davecgh-go-spew
+  golang-github-distribution-reference:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: golang-github-distribution-reference
+  golang-github-docker-go-events:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: golang-github-docker-go-events
+  golang-github-docker-go-metrics:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: golang-github-docker-go-metrics
+  golang-github-docker-go-units:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: golang-github-docker-go-units
+  golang-github-docker-spdystream:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: golang-github-docker-spdystream
+  golang-github-emicklei-go-restful:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: golang-github-emicklei-go-restful
+  golang-github-etcd-io-gofail:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: golang-github-etcd-io-gofail
+  golang-github-evanphx-json-patch:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: golang-github-evanphx-json-patch
+  golang-github-fullsailor-pkcs7:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: golang-github-fullsailor-pkcs7
+  golang-github-fxamacker-cbor:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: golang-github-fxamacker-cbor
+  golang-github-garyburd-redigo:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: golang-github-garyburd-redigo
+  golang-github-getkin-kin-openapi:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: golang-github-getkin-kin-openapi
+  golang-github-go-jose-go-jose:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: golang-github-go-jose-go-jose
+  golang-github-go-kit-log:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: golang-github-go-kit-log
+  golang-github-go-logfmt-logfmt:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: golang-github-go-logfmt-logfmt
+  golang-github-go-logr-logr:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: golang-github-go-logr-logr
+  golang-github-go-logr-stdr:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: golang-github-go-logr-stdr
+  golang-github-go-openapi-jsonpointer:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: golang-github-go-openapi-jsonpointer
+  golang-github-go-openapi-jsonreference:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: golang-github-go-openapi-jsonreference
+  golang-github-go-openapi-swag:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: golang-github-go-openapi-swag
+  golang-github-go-task-slim-sprig:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: golang-github-go-task-slim-sprig
+  golang-github-golang-groupcache:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: golang-github-golang-groupcache
+  golang-github-golang-mock:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: golang-github-golang-mock
+  golang-github-golang-protobuf-1-3:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: golang-github-golang-protobuf-1-3
+  golang-github-golang-protobuf-1-5:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: golang-github-golang-protobuf-1-5
+  golang-github-golang-snappy:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: golang-github-golang-snappy
+  golang-github-google-btree:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: golang-github-google-btree
+  golang-github-google-cel-go:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: golang-github-google-cel-go
+  golang-github-google-gnostic-models:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: golang-github-google-gnostic-models
+  golang-github-google-go-cmp:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: golang-github-google-go-cmp
+  golang-github-google-gofuzz:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: golang-github-google-gofuzz
+  golang-github-google-martian:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: golang-github-google-martian
+  golang-github-google-pprof:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: golang-github-google-pprof
+  golang-github-google-uuid:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: golang-github-google-uuid
+  golang-github-googleapis-gax-go:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: golang-github-googleapis-gax-go
+  golang-github-gorilla-mux:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: golang-github-gorilla-mux
+  golang-github-gorilla-websocket:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: golang-github-gorilla-websocket
+  golang-github-gregjones-httpcache:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: golang-github-gregjones-httpcache
+  golang-github-grpc-ecosystem-go-grpc-prometheus:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: golang-github-grpc-ecosystem-go-grpc-prometheus
+  golang-github-grpc-ecosystem-grpc-gateway:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: golang-github-grpc-ecosystem-grpc-gateway
+  golang-github-hashicorp-errwrap:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: golang-github-hashicorp-errwrap
+  golang-github-hashicorp-go-multierror:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: golang-github-hashicorp-go-multierror
+  golang-github-huandu-xstrings:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: golang-github-huandu-xstrings
+  golang-github-ianlancetaylor-demangle:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: golang-github-ianlancetaylor-demangle
+  golang-github-imdario-mergo:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: golang-github-imdario-mergo
+  golang-github-intel-goresctrl:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: golang-github-intel-goresctrl
+  golang-github-invopop-yaml:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: golang-github-invopop-yaml
+  golang-github-jmespath-go-jmespath:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: golang-github-jmespath-go-jmespath
+  golang-github-josharian-intern:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: golang-github-josharian-intern
+  golang-github-jpillora-backoff:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: golang-github-jpillora-backoff
+  golang-github-json-iterator-go:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: golang-github-json-iterator-go
+  golang-github-julienschmidt-httprouter:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: golang-github-julienschmidt-httprouter
+  golang-github-klauspost-compress:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: golang-github-klauspost-compress
+  golang-github-klauspost-cpuid:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: golang-github-klauspost-cpuid
+  golang-github-kubernetes-cri-api:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: golang-github-kubernetes-cri-api
+  golang-github-kubernetes-gengo:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: golang-github-kubernetes-gengo
+  golang-github-kylelemons-godebug:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: golang-github-kylelemons-godebug
+  golang-github-mailru-easyjson:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: golang-github-mailru-easyjson
+  golang-github-masterminds-goutils:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: golang-github-masterminds-goutils
+  golang-github-masterminds-semver-dev:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: golang-github-masterminds-semver-dev
+  golang-github-miekg-pkcs11:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: golang-github-miekg-pkcs11
+  golang-github-minio-sha256-simd:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: golang-github-minio-sha256-simd
+  golang-github-moby-locker:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: golang-github-moby-locker
+  golang-github-moby-sys:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: golang-github-moby-sys
+  golang-github-modern-go-concurrent:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: golang-github-modern-go-concurrent
+  golang-github-modern-go-reflect2:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: golang-github-modern-go-reflect2
+  golang-github-mohae-deepcopy:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: golang-github-mohae-deepcopy
+  golang-github-mrunalp-fileutils:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: golang-github-mrunalp-fileutils
+  golang-github-munnerz-goautoneg:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: golang-github-munnerz-goautoneg
+  golang-github-mwitkow-go-conntrack:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: golang-github-mwitkow-go-conntrack
+  golang-github-mxk-go-flowrate:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: golang-github-mxk-go-flowrate
+  golang-github-nxadm-tail:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: golang-github-nxadm-tail
+  golang-github-nytimes-gziphandler:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: golang-github-nytimes-gziphandler
+  golang-github-onsi-ginkgo-v2:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: golang-github-onsi-ginkgo-v2
+  golang-github-opencontainers-go-digest:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: golang-github-opencontainers-go-digest
+  golang-github-opencontainers-image-spec:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: golang-github-opencontainers-image-spec
+  golang-github-opencontainers-runtime-tools:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: golang-github-opencontainers-runtime-tools
+  golang-github-opencontainers-selinux:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: golang-github-opencontainers-selinux
+  golang-github-opencontainers-specs:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: golang-github-opencontainers-specs
+  golang-github-pelletier-go-toml:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: golang-github-pelletier-go-toml
+  golang-github-perimeterx-marshmallow:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: golang-github-perimeterx-marshmallow
+  golang-github-peterbourgon-diskv:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: golang-github-peterbourgon-diskv
+  golang-github-pkg-errors:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: golang-github-pkg-errors
+  golang-github-pmezard-go-difflib:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: golang-github-pmezard-go-difflib
+  golang-github-prometheus-client-golang:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: golang-github-prometheus-client-golang
+  golang-github-prometheus-client-model:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: golang-github-prometheus-client-model
+  golang-github-prometheus-common:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: golang-github-prometheus-common
+  golang-github-prometheus-procfs:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: golang-github-prometheus-procfs
+  golang-github-prometheus-sigv4:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: golang-github-prometheus-sigv4
+  golang-github-rogpeppe-fastuuid:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: golang-github-rogpeppe-fastuuid
+  golang-github-rogpeppe-go-internal:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: golang-github-rogpeppe-go-internal
+  golang-github-safchain-ethtool:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: golang-github-safchain-ethtool
+  golang-github-seccomp-libseccomp-golang:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: golang-github-seccomp-libseccomp-golang
+  golang-github-shurcool-sanitized-anchor-name:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: golang-github-shurcool-sanitized-anchor-name
+  golang-github-spf13-pflag:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: golang-github-spf13-pflag
+  golang-github-stefanberger-go-pkcs11uri:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: golang-github-stefanberger-go-pkcs11uri
+  golang-github-stoewer-go-strcase:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: golang-github-stoewer-go-strcase
+  golang-github-ugorji-go-codec:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: golang-github-ugorji-go-codec
+  golang-github-urfave-cli:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: golang-github-urfave-cli
+  golang-github-vishvananda-netlink:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: golang-github-vishvananda-netlink
+  golang-github-vishvananda-netns:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: golang-github-vishvananda-netns
+  golang-github-x448-float16:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: golang-github-x448-float16
+  golang-github-xeipuuv-gojsonpointer:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: golang-github-xeipuuv-gojsonpointer
+  golang-github-xeipuuv-gojsonreference:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: golang-github-xeipuuv-gojsonreference
+  golang-github-xeipuuv-gojsonschema:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: golang-github-xeipuuv-gojsonschema
+  golang-github-yuin-goldmark:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: golang-github-yuin-goldmark
+  golang-glog:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: golang-glog
+  golang-go-patricia:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: golang-go-patricia
+  golang-go_crypto:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: golang-go.crypto
+  golang-go_opencensus:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: golang-go.opencensus
+  golang-gocapability-dev:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: golang-gocapability-dev
+  golang-gogoprotobuf:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: golang-gogoprotobuf
+  golang-gogottrpc:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: golang-gogottrpc
+  golang-golang-x-exp:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: golang-golang-x-exp
+  golang-golang-x-mod:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: golang-golang-x-mod
+  golang-golang-x-net:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: golang-golang-x-net
+  golang-golang-x-oauth2:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: golang-golang-x-oauth2
+  golang-golang-x-sync:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: golang-golang-x-sync
+  golang-golang-x-sys:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: golang-golang-x-sys
+  golang-golang-x-term:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: golang-golang-x-term
+  golang-golang-x-text:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: golang-golang-x-text
+  golang-golang-x-time:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: golang-golang-x-time
+  golang-golang-x-tools:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: golang-golang-x-tools
+  golang-goleveldb:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: golang-goleveldb
+  golang-gomega:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: golang-gomega
+  golang-gomemcache:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: golang-gomemcache
+  golang-google-api:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: golang-google-api
+  golang-google-cloud:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: golang-google-cloud
+  golang-google-genproto:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: golang-google-genproto
+  golang-google-grpc:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: golang-google-grpc
+  golang-google-protobuf:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: golang-google-protobuf
+  golang-gopkg-alecthomas-kingpin_v2:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: golang-gopkg-alecthomas-kingpin.v2
+  golang-gopkg-inf_v0:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: golang-gopkg-inf.v0
+  golang-gopkg-tomb_v1:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: golang-gopkg-tomb.v1
+  golang-gopkg-yaml_v3:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: golang-gopkg-yaml.v3
+  golang-k8s-api:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: golang-k8s-api
+  golang-k8s-apimachinery:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: golang-k8s-apimachinery
+  golang-k8s-apiserver:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: golang-k8s-apiserver
+  golang-k8s-client-go:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: golang-k8s-client-go
+  golang-k8s-klog:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: golang-k8s-klog
+  golang-k8s-kube-openapi:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: golang-k8s-kube-openapi
+  golang-k8s-sigs-json:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: golang-k8s-sigs-json
+  golang-k8s-sigs-structured-merge-diff:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: golang-k8s-sigs-structured-merge-diff
+  golang-k8s-sigs-yaml:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: golang-k8s-sigs-yaml
+  golang-k8s-utils:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: golang-k8s-utils
+  golang-logrus:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: golang-logrus
+  golang-objx:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: golang-objx
+  golang-opentelemetry-otel:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: golang-opentelemetry-otel
+  golang-opentelemetry-proto:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: golang-opentelemetry-proto
+  golang-pretty:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: golang-pretty
+  golang-rsc-binaryregexp:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: golang-rsc-binaryregexp
+  golang-tags_cncf-container-device-interface:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: golang-tags.cncf-container-device-interface
+  golang-testify:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: golang-testify
+  golang-text:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: golang-text
+  golang-toml:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: golang-toml
+  golang-yaml_v2:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: golang-yaml.v2
+  google-compute-engine-oslogin:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: google-compute-engine-oslogin
+  google-guest-agent:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: google-guest-agent
+  google-perftools:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: google-perftools
+  gosop:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: gosop
+  gpgme1_0:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: gpgme1.0
+  gpm:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: gpm
+  graphene:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: graphene
+  graphite2:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: graphite2
+  grep:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: grep
+  groff:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: groff
+  grub2:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: grub2
+  gsettings-desktop-schemas:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: gsettings-desktop-schemas
+  gtk_2_0:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: gtk+2.0
+  gtk_3_0:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: gtk+3.0
+  gtk4:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: gtk4
+  guestfs-tools:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: guestfs-tools
+  guile-3_0:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: guile-3.0
+  gyp:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: gyp
+  gzip:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: gzip
+  harfbuzz:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: harfbuzz
+  haveged:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: haveged
+  hdparm:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: hdparm
+  heimdal:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: heimdal
+  hfsplus:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: hfsplus
+  hicolor-icon-theme:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: hicolor-icon-theme
+  hivex:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: hivex
+  hostname:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: hostname
+  htop:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: htop
+  hyperlink:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: hyperlink
+  icoutils:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: icoutils
+  icu:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: icu
+  ieee-data:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: ieee-data
+  ifupdown:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: ifupdown
+  ignition:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: ignition
+  importlib-resources:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: importlib-resources
+  incremental:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: incremental
+  inetutils:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: inetutils
+  init-system-helpers:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: init-system-helpers
+  initramfs-tools:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: initramfs-tools
+  insserv:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: insserv
+  intltool-debian:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: intltool-debian
+  ipmitool:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: ipmitool
+  iproute2:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: iproute2
+  iptables:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: iptables
+  iputils:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: iputils
+  ipvsadm:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: ipvsadm
+  ipxe:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: ipxe
+  isc-dhcp:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: isc-dhcp
+  isl:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: isl
+  jansson:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: jansson
+  jaraco_classes:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: jaraco.classes
+  jaraco_collections:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: jaraco.collections
+  jaraco_context:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: jaraco.context
+  jaraco_text:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: jaraco.text
+  jbigkit:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: jbigkit
+  jeepney:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: jeepney
+  jemalloc:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: jemalloc
+  jfsutils:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: jfsutils
+  jinja2:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: jinja2
+  jq:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: jq
+  json-c:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: json-c
+  json-glib:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: json-glib
+  kerberos-configs:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: kerberos-configs
+  kernel-wedge:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: kernel-wedge
+  kexec-tools:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: kexec-tools
+  keyutils:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: keyutils
+  kf6-kguiaddons:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: kf6-kguiaddons
+  kf6-kwindowsystem:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: kf6-kwindowsystem
+  klibc:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: klibc
+  kmod:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: kmod
+  krb5:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: krb5
+  lcms2:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: lcms2
+  lerc:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: lerc
+  less:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: less
+  libaio:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: libaio
+  libarchive-zip-perl:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: libarchive-zip-perl
+  libarchive:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: libarchive
+  libassuan:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: libassuan
+  libb-hooks-op-check-perl:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: libb-hooks-op-check-perl
+  libb2:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: libb2
+  libbfio:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: libbfio
+  libblkio:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: libblkio
+  libbpf:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: libbpf
+  libbsd:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: libbsd
+  libcacard:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: libcacard
+  libcap-ng:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: libcap-ng
+  libcap2:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: libcap2
+  libcbor:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: libcbor
+  libclass-method-modifiers-perl:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: libclass-method-modifiers-perl
+  libclass-xsaccessor-perl:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: libclass-xsaccessor-perl
+  libclone-perl:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: libclone-perl
+  libcloudproviders:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: libcloudproviders
+  libcompress-raw-bzip2-perl:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: libcompress-raw-bzip2-perl
+  libcompress-raw-zlib-perl:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: libcompress-raw-zlib-perl
+  libconfig:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: libconfig
+  libdate-manip-perl:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: libdate-manip-perl
+  libdatrie:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: libdatrie
+  libdebian-installer:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: libdebian-installer
+  libdeflate:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: libdeflate
+  libdevel-callchecker-perl:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: libdevel-callchecker-perl
+  libdrm:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: libdrm
+  libdynaloader-functions-perl:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: libdynaloader-functions-perl
+  libedit:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: libedit
+  libencode-locale-perl:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: libencode-locale-perl
+  libencode-perl:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: libencode-perl
+  libepoxy:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: libepoxy
+  liberror-perl:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: liberror-perl
+  libestr:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: libestr
+  libev:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: libev
+  libevdev:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: libevdev
+  libevent:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: libevent
+  libewf:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: libewf
+  libexecs:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: libexecs
+  libfastjson:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: libfastjson
+  libffi:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: libffi
+  libfido2:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: libfido2
+  libfile-dirlist-perl:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: libfile-dirlist-perl
+  libfile-homedir-perl:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: libfile-homedir-perl
+  libfile-listing-perl:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: libfile-listing-perl
+  libfile-touch-perl:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: libfile-touch-perl
+  libfile-which-perl:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: libfile-which-perl
+  libfontenc:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: libfontenc
+  libgc:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: libgc
+  libgcrypt20:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: libgcrypt20
+  libglvnd:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: libglvnd
+  libgpg-error:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: libgpg-error
+  libgudev:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: libgudev
+  libguestfs:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: libguestfs
+  libhtml-parser-perl:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: libhtml-parser-perl
+  libhtml-tagset-perl:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: libhtml-tagset-perl
+  libhtml-tree-perl:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: libhtml-tree-perl
+  libhttp-cookies-perl:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: libhttp-cookies-perl
+  libhttp-date-perl:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: libhttp-date-perl
+  libhttp-message-perl:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: libhttp-message-perl
+  libhttp-negotiate-perl:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: libhttp-negotiate-perl
+  libice:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: libice
+  libidn2:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: libidn2
+  libimport-into-perl:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: libimport-into-perl
+  libinih:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: libinih
+  libinput:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: libinput
+  libintl-perl:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: libintl-perl
+  libio-html-perl:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: libio-html-perl
+  libio-pty-perl:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: libio-pty-perl
+  libio-socket-ip-perl:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: libio-socket-ip-perl
+  libio-socket-ssl-perl:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: libio-socket-ssl-perl
+  libipc-run-perl:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: libipc-run-perl
+  libiscsi:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: libiscsi
+  libjpeg-turbo:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: libjpeg-turbo
+  libksba:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: libksba
+  libldm:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: libldm
+  liblocale-gettext-perl:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: liblocale-gettext-perl
+  liblockfile:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: liblockfile
+  liblognorm:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: liblognorm
+  liblwp-mediatypes-perl:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: liblwp-mediatypes-perl
+  liblwp-protocol-https-perl:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: liblwp-protocol-https-perl
+  libmaxminddb:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: libmaxminddb
+  libmd:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: libmd
+  libmicrohttpd:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: libmicrohttpd
+  libmnl:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: libmnl
+  libmodule-runtime-perl:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: libmodule-runtime-perl
+  libmoo-perl:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: libmoo-perl
+  libmspack:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: libmspack
+  libndp:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: libndp
+  libnet-http-perl:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: libnet-http-perl
+  libnet-ssleay-perl:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: libnet-ssleay-perl
+  libnetfilter-conntrack:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: libnetfilter-conntrack
+  libnfnetlink:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: libnfnetlink
+  libnfs:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: libnfs
+  libnftnl:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: libnftnl
+  libnl3:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: libnl3
+  libnvme:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: libnvme
+  libonig:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: libonig
+  libosinfo:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: libosinfo
+  libp11:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: libp11
+  libpam-ssh:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: libpam-ssh
+  libparams-classify-perl:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: libparams-classify-perl
+  libpcap:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: libpcap
+  libpciaccess:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: libpciaccess
+  libpipeline:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: libpipeline
+  libpng1_6:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: libpng1.6
+  libproxy:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: libproxy
+  libpsl:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: libpsl
+  libpwquality:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: libpwquality
+  librabbitmq:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: librabbitmq
+  librelp:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: librelp
+  librole-tiny-perl:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: librole-tiny-perl
+  librsvg:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: librsvg
+  librtr:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: librtr
+  libscalar-list-utils-perl:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: libscalar-list-utils-perl
+  libseccomp:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: libseccomp
+  libsecret:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: libsecret
+  libselinux:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: libselinux
+  libsemanage:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: libsemanage
+  libsepol:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: libsepol
+  libsigsegv:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: libsigsegv
+  libslirp:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: libslirp
+  libsm:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: libsm
+  libsodium:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: libsodium
+  libsoup3:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: libsoup3
+  libssh:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: libssh
+  libssh2:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: libssh2
+  libstoragemgmt:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: libstoragemgmt
+  libstring-shellquote-perl:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: libstring-shellquote-perl
+  libsub-quote-perl:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: libsub-quote-perl
+  libsys-virt-perl:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: libsys-virt-perl
+  libtasn1-6:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: libtasn1-6
+  libteam:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: libteam
+  libtext-charwidth-perl:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: libtext-charwidth-perl
+  libtext-iconv-perl:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: libtext-iconv-perl
+  libtext-wrapi18n-perl:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: libtext-wrapi18n-perl
+  libtextwrap:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: libtextwrap
+  libthai:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: libthai
+  libtimedate-perl:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: libtimedate-perl
+  libtirpc:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: libtirpc
+  libtool:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: libtool
+  libtpms:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: libtpms
+  libtraceevent:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: libtraceevent
+  libtracefs:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: libtracefs
+  libtry-tiny-perl:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: libtry-tiny-perl
+  libunistring:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: libunistring
+  libunwind:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: libunwind
+  liburcu:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: liburcu
+  liburi-perl:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: liburi-perl
+  liburing:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: liburing
+  libusb-1_0:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: libusb-1.0
+  libuv1:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: libuv1
+  libverto:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: libverto
+  libvhdi:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: libvhdi
+  libvirt:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: libvirt
+  libvmdk:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: libvmdk
+  libwacom:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: libwacom
+  libwebp:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: libwebp
+  libwww-perl:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: libwww-perl
+  libwww-robotrules-perl:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: libwww-robotrules-perl
+  libx11:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: libx11
+  libxau:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: libxau
+  libxcb:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: libxcb
+  libxcomposite:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: libxcomposite
+  libxcrypt:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: libxcrypt
+  libxcursor:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: libxcursor
+  libxdamage:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: libxdamage
+  libxdmcp:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: libxdmcp
+  libxext:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: libxext
+  libxfce4util:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: libxfce4util
+  libxfixes:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: libxfixes
+  libxi:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: libxi
+  libxinerama:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: libxinerama
+  libxkbcommon:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: libxkbcommon
+  libxml-parser-perl:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: libxml-parser-perl
+  libxml-xpath-perl:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: libxml-xpath-perl
+  libxml2:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: libxml2
+  libxrandr:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: libxrandr
+  libxrender:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: libxrender
+  libxshmfence:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: libxshmfence
+  libxslt:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: libxslt
+  libxss:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: libxss
+  libxtst:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: libxtst
+  libxxf86vm:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: libxxf86vm
+  libyaml:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: libyaml
+  libyang2:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: libyang2
+  libzstd:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: libzstd
+  linux-base:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: linux-base
+  linux:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: linux
+  llvm-toolchain-17:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: llvm-toolchain-17
+  llvm-toolchain-18:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: llvm-toolchain-18
+  llvm-toolchain-19:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: llvm-toolchain-19
+  lm-sensors:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: lm-sensors
+  lmdb:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: lmdb
+  logrotate:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: logrotate
+  lsb-release-minimal:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: lsb-release-minimal
+  lsb:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: lsb
+  lsof:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: lsof
+  lsscsi:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: lsscsi
+  lua5_3:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: lua5.3
+  lua5_4:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: lua5.4
+  lvm2:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: lvm2
+  lxml:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: lxml
+  lz4:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: lz4
+  lzip:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: lzip
+  lzo2:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: lzo2
+  lzop:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: lzop
+  m4:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: m4
+  make-dfsg:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: make-dfsg
+  mako:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: mako
+  man-db:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: man-db
+  mariadb:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: mariadb
+  markupsafe:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: markupsafe
+  mathjax:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: mathjax
+  mawk:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: mawk
+  md4c:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: md4c
+  mdadm:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: mdadm
+  mdevctl:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: mdevctl
+  media-types:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: media-types
+  mesa:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: mesa
+  metalbond:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: metalbond
+  mew-beta:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: mew-beta
+  mew:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: mew
+  mhash:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: mhash
+  modemmanager:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: modemmanager
+  more-itertools:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: more-itertools
+  mpclib3:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: mpclib3
+  mpfr4:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: mpfr4
+  mstflint:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: mstflint
+  mtdev:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: mtdev
+  mtools:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: mtools
+  multipath-tools:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: multipath-tools
+  muparser:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: muparser
+  mysql-defaults:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: mysql-defaults
+  nano:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: nano
+  natsort:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: natsort
+  ncurses:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: ncurses
+  ndctl:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: ndctl
+  net-snmp:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: net-snmp
+  net-tools:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: net-tools
+  netavark:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: netavark
+  netbase:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: netbase
+  netcat-openbsd:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: netcat-openbsd
+  netifaces:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: netifaces
+  netpbm-free:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: netpbm-free
+  netplan_io:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: netplan.io
+  nettle:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: nettle
+  network-manager:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: network-manager
+  networkx:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: networkx
+  newt:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: newt
+  nfs-utils:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: nfs-utils
+  nftables:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: nftables
+  nghttp2:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: nghttp2
+  nghttp3:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: nghttp3
+  ngtcp2:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: ngtcp2
+  nilfs-tools:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: nilfs-tools
+  node-abbrev:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-abbrev
+  node-ajv-keywords:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-ajv-keywords
+  node-ajv:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-ajv
+  node-ampproject-remapping:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-ampproject-remapping
+  node-ansi-escapes:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-ansi-escapes
+  node-ansi-regex:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-ansi-regex
+  node-ansi-styles:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-ansi-styles
+  node-anymatch:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-anymatch
+  node-aproba:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-aproba
+  node-archy:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-archy
+  node-are-we-there-yet:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-are-we-there-yet
+  node-argparse:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-argparse
+  node-arrify:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-arrify
+  node-assert:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-assert
+  node-async-each:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-async-each
+  node-async:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-async
+  node-babel-plugin-add-module-exports:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-babel-plugin-add-module-exports
+  node-babel-plugin-lodash:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-babel-plugin-lodash
+  node-babel-polyfills:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-babel-polyfills
+  node-babel7:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-babel7
+  node-balanced-match:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-balanced-match
+  node-base64-js:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-base64-js
+  node-binary-extensions:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-binary-extensions
+  node-brace-expansion:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-brace-expansion
+  node-braces:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-braces
+  node-browserslist:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-browserslist
+  node-builtins:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-builtins
+  node-cacache:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-cacache
+  node-camelcase:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-camelcase
+  node-caniuse-lite:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-caniuse-lite
+  node-chalk:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-chalk
+  node-chokidar:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-chokidar
+  node-chownr:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-chownr
+  node-chrome-trace-event:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-chrome-trace-event
+  node-ci-info:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-ci-info
+  node-cjs-module-lexer:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-cjs-module-lexer
+  node-cli-table:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-cli-table
+  node-cliui:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-cliui
+  node-clone-deep:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-clone-deep
+  node-clone:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-clone
+  node-color-convert:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-color-convert
+  node-color-name:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-color-name
+  node-columnify:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-columnify
+  node-commander:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-commander
+  node-commondir:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-commondir
+  node-concat-stream:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-concat-stream
+  node-console-control-strings:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-console-control-strings
+  node-convert-source-map:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-convert-source-map
+  node-copy-concurrently:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-copy-concurrently
+  node-core-js:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-core-js
+  node-core-util-is:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-core-util-is
+  node-corepack:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-corepack
+  node-css-loader:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-css-loader
+  node-css-selector-tokenizer:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-css-selector-tokenizer
+  node-debbundle-es-to-primitive:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-debbundle-es-to-primitive
+  node-debug:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-debug
+  node-decamelize:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-decamelize
+  node-decompress-response:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-decompress-response
+  node-deep-equal:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-deep-equal
+  node-deep-is:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-deep-is
+  node-defaults:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-defaults
+  node-define-properties:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-define-properties
+  node-define-property:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-define-property
+  node-defined:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-defined
+  node-del:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-del
+  node-delegates:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-delegates
+  node-depd:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-depd
+  node-diff:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-diff
+  node-doctrine:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-doctrine
+  node-electron-to-chromium:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-electron-to-chromium
+  node-encoding:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-encoding
+  node-enhanced-resolve:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-enhanced-resolve
+  node-envinfo:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-envinfo
+  node-err-code:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-err-code
+  node-errno:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-errno
+  node-error-ex:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-error-ex
+  node-es-abstract:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-es-abstract
+  node-es-module-lexer:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-es-module-lexer
+  node-es6-error:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-es6-error
+  node-escape-string-regexp:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-escape-string-regexp
+  node-escodegen:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-escodegen
+  node-eslint-scope:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-eslint-scope
+  node-eslint-utils:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-eslint-utils
+  node-eslint-visitor-keys:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-eslint-visitor-keys
+  node-espree:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-espree
+  node-esprima:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-esprima
+  node-esquery:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-esquery
+  node-esrecurse:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-esrecurse
+  node-estraverse:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-estraverse
+  node-esutils:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-esutils
+  node-events:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-events
+  node-execa:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-execa
+  node-fancy-log:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-fancy-log
+  node-fast-deep-equal:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-fast-deep-equal
+  node-fast-levenshtein:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-fast-levenshtein
+  node-fetch:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-fetch
+  node-file-entry-cache:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-file-entry-cache
+  node-fill-range:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-fill-range
+  node-find-cache-dir:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-find-cache-dir
+  node-find-up:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-find-up
+  node-flatted:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-flatted
+  node-for-in:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-for-in
+  node-for-own:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-for-own
+  node-foreground-child:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-foreground-child
+  node-fs-readdir-recursive:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-fs-readdir-recursive
+  node-fs-write-stream-atomic:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-fs-write-stream-atomic
+  node-fs_realpath:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-fs.realpath
+  node-function-bind:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-function-bind
+  node-functional-red-black-tree:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-functional-red-black-tree
+  node-gauge:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-gauge
+  node-get-caller-file:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-get-caller-file
+  node-get-stream:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-get-stream
+  node-glob-parent:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-glob-parent
+  node-glob:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-glob
+  node-globals:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-globals
+  node-globby:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-globby
+  node-got:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-got
+  node-graceful-fs:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-graceful-fs
+  node-gyp:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-gyp
+  node-handlebars:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-handlebars
+  node-has-flag:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-has-flag
+  node-has-unicode:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-has-unicode
+  node-hosted-git-info:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-hosted-git-info
+  node-iconv-lite:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-iconv-lite
+  node-icss-utils:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-icss-utils
+  node-ieee754:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-ieee754
+  node-iferr:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-iferr
+  node-ignore:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-ignore
+  node-imurmurhash:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-imurmurhash
+  node-indent-string:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-indent-string
+  node-inflight:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-inflight
+  node-inherits:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-inherits
+  node-ini:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-ini
+  node-interpret:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-interpret
+  node-ip-regex:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-ip-regex
+  node-ip:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-ip
+  node-is-arrayish:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-is-arrayish
+  node-is-binary-path:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-is-binary-path
+  node-is-buffer:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-is-buffer
+  node-is-descriptor:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-is-descriptor
+  node-is-extendable:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-is-extendable
+  node-is-extglob:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-is-extglob
+  node-is-glob:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-is-glob
+  node-is-number:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-is-number
+  node-is-path-cwd:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-is-path-cwd
+  node-is-path-inside:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-is-path-inside
+  node-is-plain-obj:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-is-plain-obj
+  node-is-plain-object:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-is-plain-object
+  node-is-stream:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-is-stream
+  node-is-typedarray:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-is-typedarray
+  node-is-windows:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-is-windows
+  node-isarray:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-isarray
+  node-isexe:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-isexe
+  node-isobject:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-isobject
+  node-istanbul:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-istanbul
+  node-jest:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-jest
+  node-jquery:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-jquery
+  node-js-tokens:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-js-tokens
+  node-js-yaml:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-js-yaml
+  node-jsesc:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-jsesc
+  node-json-buffer:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-json-buffer
+  node-json-parse-better-errors:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-json-parse-better-errors
+  node-json-schema-traverse:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-json-schema-traverse
+  node-json-schema:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-json-schema
+  node-json-stable-stringify:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-json-stable-stringify
+  node-json5:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-json5
+  node-jsonify:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-jsonify
+  node-jsonparse:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-jsonparse
+  node-kind-of:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-kind-of
+  node-levn:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-levn
+  node-loader-runner:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-loader-runner
+  node-locate-path:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-locate-path
+  node-lodash:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-lodash
+  node-lowercase-keys:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-lowercase-keys
+  node-lru-cache:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-lru-cache
+  node-make-dir:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-make-dir
+  node-memfs:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-memfs
+  node-memory-fs:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-memory-fs
+  node-merge-stream:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-merge-stream
+  node-micromatch:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-micromatch
+  node-mime-types:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-mime-types
+  node-mime:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-mime
+  node-mimic-fn:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-mimic-fn
+  node-mimic-response:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-mimic-response
+  node-minimatch:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-minimatch
+  node-minimist:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-minimist
+  node-minipass:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-minipass
+  node-mkdirp:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-mkdirp
+  node-move-concurrently:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-move-concurrently
+  node-ms:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-ms
+  node-mute-stream:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-mute-stream
+  node-n3:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-n3
+  node-negotiator:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-negotiator
+  node-neo-async:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-neo-async
+  node-nopt:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-nopt
+  node-normalize-package-data:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-normalize-package-data
+  node-normalize-path:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-normalize-path
+  node-npm-bundled:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-npm-bundled
+  node-npm-package-arg:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-npm-package-arg
+  node-npm-run-path:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-npm-run-path
+  node-npmlog:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-npmlog
+  node-object-assign:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-object-assign
+  node-object-inspect:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-object-inspect
+  node-once:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-once
+  node-optimist:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-optimist
+  node-optionator:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-optionator
+  node-osenv:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-osenv
+  node-p-cancelable:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-p-cancelable
+  node-p-limit:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-p-limit
+  node-p-locate:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-p-locate
+  node-p-map:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-p-map
+  node-parse-json:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-parse-json
+  node-path-dirname:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-path-dirname
+  node-path-exists:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-path-exists
+  node-path-is-absolute:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-path-is-absolute
+  node-path-is-inside:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-path-is-inside
+  node-path-type:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-path-type
+  node-picocolors:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-picocolors
+  node-pify:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-pify
+  node-pkg-dir:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-pkg-dir
+  node-postcss-modules-extract-imports:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-postcss-modules-extract-imports
+  node-postcss-modules-values:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-postcss-modules-values
+  node-postcss-value-parser:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-postcss-value-parser
+  node-postcss:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-postcss
+  node-prelude-ls:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-prelude-ls
+  node-process-nextick-args:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-process-nextick-args
+  node-progress:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-progress
+  node-promise-inflight:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-promise-inflight
+  node-promise-retry:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-promise-retry
+  node-promzard:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-promzard
+  node-proxy-agents:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-proxy-agents
+  node-prr:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-prr
+  node-punycode:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-punycode
+  node-quick-lru:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-quick-lru
+  node-randombytes:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-randombytes
+  node-read-package-json:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-read-package-json
+  node-read-pkg:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-read-pkg
+  node-read:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-read
+  node-readable-stream:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-readable-stream
+  node-readdirp:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-readdirp
+  node-rechoir:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-rechoir
+  node-regenerate-unicode-properties:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-regenerate-unicode-properties
+  node-regenerate:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-regenerate
+  node-regenerator:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-regenerator
+  node-regexpp:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-regexpp
+  node-regexpu-core:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-regexpu-core
+  node-regjsgen:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-regjsgen
+  node-regjsparser:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-regjsparser
+  node-repeat-string:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-repeat-string
+  node-require-directory:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-require-directory
+  node-resolve-cwd:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-resolve-cwd
+  node-resolve-from:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-resolve-from
+  node-resolve:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-resolve
+  node-resumer:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-resumer
+  node-retry:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-retry
+  node-rimraf:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-rimraf
+  node-run-queue:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-run-queue
+  node-safe-buffer:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-safe-buffer
+  node-schema-utils:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-schema-utils
+  node-semver:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-semver
+  node-serialize-javascript:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-serialize-javascript
+  node-set-blocking:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-set-blocking
+  node-set-immediate-shim:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-set-immediate-shim
+  node-shebang-command:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-shebang-command
+  node-shebang-regex:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-shebang-regex
+  node-signal-exit:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-signal-exit
+  node-slash:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-slash
+  node-slice-ansi:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-slice-ansi
+  node-source-list-map:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-source-list-map
+  node-source-map-support:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-source-map-support
+  node-source-map:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-source-map
+  node-spdx-correct:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-spdx-correct
+  node-spdx-exceptions:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-spdx-exceptions
+  node-spdx-expression-parse:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-spdx-expression-parse
+  node-spdx-license-ids:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-spdx-license-ids
+  node-sprintf-js:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-sprintf-js
+  node-ssri:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-ssri
+  node-string-decoder:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-string-decoder
+  node-string-width:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-string-width
+  node-strip-ansi:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-strip-ansi
+  node-strip-bom:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-strip-bom
+  node-strip-eof:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-strip-eof
+  node-strip-json-comments:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-strip-json-comments
+  node-supports-color:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-supports-color
+  node-tapable:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-tapable
+  node-tape:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-tape
+  node-tar:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-tar
+  node-terser:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-terser
+  node-text-table:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-text-table
+  node-through:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-through
+  node-time-stamp:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-time-stamp
+  node-to-fast-properties:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-to-fast-properties
+  node-to-regex-range:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-to-regex-range
+  node-tslib:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-tslib
+  node-type-check:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-type-check
+  node-typedarray-to-buffer:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-typedarray-to-buffer
+  node-typedarray:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-typedarray
+  node-undici:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-undici
+  node-unicode-canonical-property-names-ecmascript:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-unicode-canonical-property-names-ecmascript
+  node-unicode-match-property-ecmascript:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-unicode-match-property-ecmascript
+  node-unicode-match-property-value-ecmascript:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-unicode-match-property-value-ecmascript
+  node-unicode-property-aliases-ecmascript:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-unicode-property-aliases-ecmascript
+  node-unique-filename:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-unique-filename
+  node-uri-js:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-uri-js
+  node-util-deprecate:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-util-deprecate
+  node-util:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-util
+  node-uuid:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-uuid
+  node-v8-compile-cache:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-v8-compile-cache
+  node-v8flags:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-v8flags
+  node-validate-npm-package-license:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-validate-npm-package-license
+  node-validate-npm-package-name:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-validate-npm-package-name
+  node-watchpack:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-watchpack
+  node-wcwidth_js:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-wcwidth.js
+  node-webassemblyjs:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-webassemblyjs
+  node-webpack-sources:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-webpack-sources
+  node-webpack:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-webpack
+  node-which:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-which
+  node-wide-align:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-wide-align
+  node-wordwrap:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-wordwrap
+  node-wrap-ansi:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-wrap-ansi
+  node-wrappy:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-wrappy
+  node-write-file-atomic:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-write-file-atomic
+  node-xtend:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-xtend
+  node-y18n:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-y18n
+  node-yallist:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-yallist
+  node-yargs-parser:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-yargs-parser
+  node-yargs:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: node-yargs
+  nodejs:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: nodejs
+  npm:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: npm
+  npth:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: npth
+  nspr:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: nspr
+  nss:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: nss
+  ntfs-3g:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: ntfs-3g
+  nullmailer:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: nullmailer
+  numactl:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: numactl
+  nvme-cli:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: nvme-cli
+  oath-toolkit:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: oath-toolkit
+  onmetal-image:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: onmetal-image
+  open-iscsi:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: open-iscsi
+  open-isns:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: open-isns
+  open-vm-tools:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: open-vm-tools
+  openldap:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: openldap
+  openrc:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: openrc
+  opensbi:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: opensbi
+  openssh:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: openssh
+  openssl:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: openssl
+  opensysusers:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: opensysusers
+  openvswitch:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: openvswitch
+  oras:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: oras
+  original-awk:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: original-awk
+  osinfo-db:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: osinfo-db
+  ostree:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: ostree
+  p11-kit:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: p11-kit
+  pam:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: pam
+  pango1_0:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: pango1.0
+  parted:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: parted
+  passt:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: passt
+  passwdqc:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: passwdqc
+  patch:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: patch
+  patchelf:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: patchelf
+  patchutils:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: patchutils
+  pcc-libs:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: pcc-libs
+  pcc:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: pcc
+  pci_ids:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: pci.ids
+  pciutils:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: pciutils
+  pcre2:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: pcre2
+  pcsc-lite:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: pcsc-lite
+  perl-openssl-defaults:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: perl-openssl-defaults
+  perl:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: perl
+  pexpect:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: pexpect
+  php-defaults:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: php-defaults
+  pinentry:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: pinentry
+  pixman:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: pixman
+  pkgconf:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: pkgconf
+  pmdk:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: pmdk
+  po-debconf:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: po-debconf
+  podman:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: podman
+  policycoreutils:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: policycoreutils
+  policykit-1:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: policykit-1
+  popt:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: popt
+  postgresql-17:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: postgresql-17
+  prettify_js:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: prettify.js
+  prettytable:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: prettytable
+  procps:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: procps
+  prompt-toolkit:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: prompt-toolkit
+  protobuf-c:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: protobuf-c
+  protobuf:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: protobuf
+  psmisc:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: psmisc
+  ptyprocess:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: ptyprocess
+  putty:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: putty
+  pyasn1:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: pyasn1
+  pyhamcrest:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: pyhamcrest
+  pyjwt:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: pyjwt
+  pyopenssl:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: pyopenssl
+  pyparsing:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: pyparsing
+  python-apt:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: python-apt
+  python-argcomplete:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: python-argcomplete
+  python-attrs:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: python-attrs
+  python-autocommand:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: python-autocommand
+  python-bcrypt:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: python-bcrypt
+  python-certifi:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: python-certifi
+  python-cffi:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: python-cffi
+  python-charset-normalizer:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: python-charset-normalizer
+  python-cheroot:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: python-cheroot
+  python-click:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: python-click
+  python-colorama:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: python-colorama
+  python-cryptography:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: python-cryptography
+  python-dateutil:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: python-dateutil
+  python-debian:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: python-debian
+  python-debtcollector:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: python-debtcollector
+  python-distro:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: python-distro
+  python-docutils:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: python-docutils
+  python-idna:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: python-idna
+  python-importlib-metadata:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: python-importlib-metadata
+  python-inflect:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: python-inflect
+  python-iso8601:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: python-iso8601
+  python-jaraco_functools:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: python-jaraco.functools
+  python-jmespath:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: python-jmespath
+  python-json-patch:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: python-json-patch
+  python-json-pointer:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: python-json-pointer
+  python-jsonschema-specifications:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: python-jsonschema-specifications
+  python-jsonschema:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: python-jsonschema
+  python-keyring:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: python-keyring
+  python-keystoneauth1:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: python-keystoneauth1
+  python-legacy-cgi:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: python-legacy-cgi
+  python-logutils:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: python-logutils
+  python-magic:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: python-magic
+  python-msgpack:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: python-msgpack
+  python-netaddr:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: python-netaddr
+  python-novaclient:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: python-novaclient
+  python-oauthlib:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: python-oauthlib
+  python-os-service-types:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: python-os-service-types
+  python-oslo_i18n:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: python-oslo.i18n
+  python-oslo_serialization:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: python-oslo.serialization
+  python-oslo_utils:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: python-oslo.utils
+  python-packaging:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: python-packaging
+  python-pbr:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: python-pbr
+  python-pecan:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: python-pecan
+  python-pefile:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: python-pefile
+  python-pip:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: python-pip
+  python-portend:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: python-portend
+  python-psutil:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: python-psutil
+  python-pyasn1-modules:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: python-pyasn1-modules
+  python-roman:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: python-roman
+  python-secretstorage:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: python-secretstorage
+  python-service-identity:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: python-service-identity
+  python-systemd:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: python-systemd
+  python-tempora:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: python-tempora
+  python-tomli:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: python-tomli
+  python-tomlkit:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: python-tomlkit
+  python-typeguard:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: python-typeguard
+  python-typing-extensions:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: python-typing-extensions
+  python-tz:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: python-tz
+  python-urllib3:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: python-urllib3
+  python-webob:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: python-webob
+  python-werkzeug:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: python-werkzeug
+  python-wrapt:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: python-wrapt
+  python-xmltodict:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: python-xmltodict
+  python-zipp:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: python-zipp
+  python-zstandard:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: python-zstandard
+  python3-defaults:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: python3-defaults
+  python3-stdlib-extensions:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: python3-stdlib-extensions
+  python3_12:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: python3.12
+  python3_13:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: python3.13
+  pyyaml:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: pyyaml
+  qemu:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: qemu
+  qt6-base:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: qt6-base
+  qt6-wayland:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: qt6-wayland
+  quilt:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: quilt
+  quota:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: quota
+  rake:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: rake
+  rdma-core:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: rdma-core
+  readline:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: readline
+  referencing:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: referencing
+  refpolicy:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: refpolicy
+  reiserfsprogs:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: reiserfsprogs
+  requests:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: requests
+  resizefat32:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: resizefat32
+  rng-tools5:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: rng-tools5
+  rootlesskit:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: rootlesskit
+  rpcbind:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: rpcbind
+  rpcsvc-proto:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: rpcsvc-proto
+  rpds-py:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: rpds-py
+  rpm:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: rpm
+  rsync:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: rsync
+  rsyslog:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: rsyslog
+  rtmpdump:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: rtmpdump
+  ruamel_yaml_clib:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: ruamel.yaml.clib
+  ruamel_yaml:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: ruamel.yaml
+  ruby-defaults:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: ruby-defaults
+  ruby-did-you-mean:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: ruby-did-you-mean
+  ruby-minitest:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: ruby-minitest
+  ruby-net-telnet:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: ruby-net-telnet
+  ruby-power-assert:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: ruby-power-assert
+  ruby-test-unit:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: ruby-test-unit
+  ruby-webrick:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: ruby-webrick
+  ruby-xmlrpc:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: ruby-xmlrpc
+  ruby3_3:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: ruby3.3
+  rubygems-integration:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: rubygems-integration
+  rubygems:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: rubygems
+  runc:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: runc
+  rust-rsop:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: rust-rsop
+  rust-sequoia-chameleon-gnupg:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: rust-sequoia-chameleon-gnupg
+  rust-sequoia-sop:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: rust-sequoia-sop
+  rust-sequoia-sqv:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: rust-sequoia-sqv
+  samba:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: samba
+  sbsigntool:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: sbsigntool
+  scrub:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: scrub
+  sdparm:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: sdparm
+  seabios:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: seabios
+  sed:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: sed
+  selinux-basics:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: selinux-basics
+  selinux-python:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: selinux-python
+  semodule-utils:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: semodule-utils
+  sensible-utils:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: sensible-utils
+  setools:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: setools
+  setuptools:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: setuptools
+  sg3-utils:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: sg3-utils
+  sgml-base:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: sgml-base
+  shadow:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: shadow
+  shared-mime-info:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: shared-mime-info
+  shellcheck:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: shellcheck
+  simplegeneric:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: simplegeneric
+  six:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: six
+  slang2:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: slang2
+  sleuthkit:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: sleuthkit
+  slirp4netns:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: slirp4netns
+  smartmontools:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: smartmontools
+  snappy:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: snappy
+  socat:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: socat
+  sops:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: sops
+  sopv-gpgv:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: sopv-gpgv
+  sos:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: sos
+  sqlite3:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: sqlite3
+  squashfs-tools:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: squashfs-tools
+  sshguard:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: sshguard
+  sssd:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: sssd
+  startpar:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: startpar
+  stevedore:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: stevedore
+  strace:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: strace
+  strip-nondeterminism:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: strip-nondeterminism
+  sudo:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: sudo
+  sudosh2:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: sudosh2
+  supermin:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: supermin
+  swtpm:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: swtpm
+  syslinux:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: syslinux
+  sysstat:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: sysstat
+  systemd-cron:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: systemd-cron
+  systemd:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: systemd
+  sysvinit:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: sysvinit
+  tar:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: tar
+  tcc:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: tcc
+  tcl8_6:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: tcl8.6
+  tcp-wrappers:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: tcp-wrappers
+  tcpdump:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: tcpdump
+  tex-gyre:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: tex-gyre
+  tiff:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: tiff
+  tini:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: tini
+  tiny-initramfs:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: tiny-initramfs
+  tk8_6:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: tk8.6
+  tpm-udev:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: tpm-udev
+  tpm2-tools:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: tpm2-tools
+  tpm2-tss:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: tpm2-tss
+  traceroute:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: traceroute
+  tslib:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: tslib
+  twisted:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: twisted
+  tzdata:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: tzdata
+  ucf:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: ucf
+  uchardet:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: uchardet
+  ucspi-unix:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: ucspi-unix
+  unbound:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: unbound
+  underscore:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: underscore
+  unzip:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: unzip
+  usb_ids:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: usb.ids
+  usbredir:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: usbredir
+  usbutils:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: usbutils
+  usrmerge:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: usrmerge
+  util-linux:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: util-linux
+  vdeplug4:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: vdeplug4
+  vim:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: vim
+  vulkan-loader:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: vulkan-loader
+  waagent:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: waagent
+  wayland:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: wayland
+  wcwidth:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: wcwidth
+  wdiff:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: wdiff
+  wget:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: wget
+  wheel:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: wheel
+  xcb-util-cursor:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: xcb-util-cursor
+  xcb-util-image:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: xcb-util-image
+  xcb-util-keysyms:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: xcb-util-keysyms
+  xcb-util-renderutil:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: xcb-util-renderutil
+  xcb-util-wm:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: xcb-util-wm
+  xcb-util:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: xcb-util
+  xdp-tools:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: xdp-tools
+  xen:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: xen
+  xfconf:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: xfconf
+  xfonts-encodings:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: xfonts-encodings
+  xfonts-utils:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: xfonts-utils
+  xfsprogs:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: xfsprogs
+  xft:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: xft
+  xkeyboard-config:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: xkeyboard-config
+  xml-core:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: xml-core
+  xmlsec1:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: xmlsec1
+  xorg:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: xorg
+  xxhash:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: xxhash
+  xz-utils:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: xz-utils
+  yajl:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: yajl
+  yara:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: yara
+  yq:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: yq
+  z3:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: z3
+  zc_lockfile:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: zc.lockfile
+  zerofree:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: zerofree
+  zfs-fuse:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: zfs-fuse
+  zlib:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: zlib
+  zope_interface:
+    uses: ./.github/workflows/build.yml
+    with:
+      package: zope.interface

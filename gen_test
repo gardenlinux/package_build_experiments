@@ -1,0 +1,22 @@
+#!/usr/bin/env bash
+
+set -eufo pipefail
+
+cat << EOF
+name: test
+on: push
+jobs:
+EOF
+
+curl -sSL https://packages.gardenlinux.io/gardenlinux/dists/today/main/source/Sources.gz \
+| gzip -d \
+| grep '^Package: ' \
+| cut -d ' ' -f 2 \
+| while read pkg; do
+cat << EOF
+  $(echo $pkg | sed 's/[^a-zA-Z0-9\-]/_/g'):
+    uses: ./.github/workflows/build.yml
+    with:
+      package: $pkg
+EOF
+done

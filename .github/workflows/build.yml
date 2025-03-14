@@ -1,0 +1,32 @@
+name: build
+on:
+  workflow_call:
+    inputs:
+      package:
+        type: string
+        required: true
+jobs:
+  build:
+    name: ${{ inputs.package }}
+    runs-on: ubuntu-latest
+    container: debian:testing
+    defaults:
+      run:
+        shell: bash
+    steps:
+      - name: setup
+        run: |
+          export DEBIAN_FRONTEND=noninteractive
+          echo 'deb-src http://deb.debian.org/debian testing main' >> /etc/apt/sources.list
+          apt-get update
+          apt-get install -y --no-install-recommends build-essential fakeroot
+          useradd -mU dev
+      - name: install build depends
+        run: apt-get build-dep -y --no-install-recommends --only-source ${{ inputs.package }}
+      - name: download source
+        run: apt-get source --only-source ${{ inputs.package }}
+      - name: build
+        run: |
+          chown -R dev:dev .
+          cd ${{ inputs.package }}-*/
+          su -c 'DEB_BUILD_OPTIONS=nocheck DEB_BUILD_PROFILES=nocheck dpkg-buildpackage --no-sign' dev
